@@ -1,6 +1,6 @@
 export ZSH="/home/michael/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
-# :D
+
 plugins=(git kubectl fast-syntax-highlighting terraform) 
 
 source $ZSH/oh-my-zsh.sh
