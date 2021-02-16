@@ -1,0 +1,11 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~']
+
+- link:
+   ~/.config/bspwm/bspwmrc: ./config/bspwmrc
+   ~/.config/picom/picom.conf: ./config/picom.conf
+   ~/.zshrc: zshrc

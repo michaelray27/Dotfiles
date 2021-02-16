@@ -1,0 +1,7 @@
+echo "Installing submodules"
+git submodule update --init --recursive
+echo "Dotbot"
+./dotbot/bin/dotbot -c install.conf.yaml
+echo "Dotbot Yay"
+./dotbot/bin/dotbot -p dotbot-yay/yay.py -c packages.conf.yaml
+

@@ -1,0 +1,44 @@
+- yay:
+# Official
+        - alacritty
+        - rofi
+        - ranger
+        - bspwm
+        - ansible
+        - sxhkd
+        - picom
+        - terraform
+        - minikube
+        - docker
+        - ueberzug
+        - neovim
+        - kubectx
+        - git
+        - neovim
+        - kubectl
+        - curl
+        - ttf-fira-code
+        - ttf-font-awesome
+        - postgresql
+        - zathura
+        - zathura-cb
+        - zathura-pdf-mupdf
+        - feh
+        - dunst
+        - python-pip
+        - base-devel
+        - go
+        - zsh
+        - pulsemixer
+        - nodejs
+        - sxiv
+# AUR
+        - polybar
+        - kube-ps1
+        - teams
+        - azure-cli
+        - google-chrome
+        - zsh-fast-syntax-highlighting
+        - kubecolor
+        - visual-studio-code-bin
+        - nerd-fonts-fira-code
