@@ -6,6 +6,7 @@
 - clean: ["~"]
 
 - link:
+          ~/.config/nvim/init.vim: ./config/init.vim
           ~/.config/bspwm/bspwmrc: ./config/bspwmrc
           ~/.config/picom/picom.conf: ./config/picom.conf
           ~/.zshrc: zshrc
