@@ -1,0 +1,6 @@
+ #!/bin/sh
+
+ alias \ 
+ 	dotc="cd ~/Files/dotfiles" \
+	dotv="nvim ~/Files/dotfiles/install.conf.yaml" \
+	dotvp="nvim ~/Files/dotfiles/packages.conf.yaml"

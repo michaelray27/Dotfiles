@@ -1,0 +1,27 @@
+#!/bin/sh
+
+# Shortcuts
+alias dotc='cd ~/Files/dotfiles'
+alias dotv='nvim ~/Files/dotfiles/install.conf.yaml'
+alias dotvp='nvim ~/Files/dotfiles/packages.conf.yaml'
+
+# Terraform
+alias t='terraform'
+alias td='terraform-docs'
+
+# Ranger
+alias r='ranger .'
+
+
+# Vim
+alias \
+	v="nvim" \
+	vim="nvim"
+
+
+# Kubernetes 
+alias \
+	kon="kubeon" \
+	koff="kubeoff" \
+	kctx="kubeon && kubectx" \
+	k="kubeon && kubecolor"

@@ -9,4 +9,14 @@
           ~/.config/nvim/init.vim: ./config/init.vim
           ~/.config/bspwm/bspwmrc: ./config/bspwmrc
           ~/.config/picom/picom.conf: ./config/picom.conf
+          ~/.config/shell/aliasrc: ./config/shell/aliasrc
+          ~/.config/shell/shortcutrc: ./config/shell/shortcutrc
+          ~/.config/shell/profile: ./config/shell/profile
+          ~/.config/ranger/rc.conf: ./config/ranger/rc.conf
+          ~/.config/alacritty/alacritty.yml: ./config/alacritty.yml
+          ~/.config/dunst/dunstc: ./config/dunstrc
+          ~/.config/sxhkd/sxhkdrc: ./config/sxhkdrc
+          ~/.config/rofi/config: ./config/rofi/config
+          ~/.config/rofi/themes/nord.rasi: ./config/rofi/nord.rasi
           ~/.zshrc: zshrc
+          ~/.profile: profile
