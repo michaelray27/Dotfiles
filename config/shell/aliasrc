@@ -7,7 +7,8 @@ alias dotvp='nvim ~/Files/dotfiles/packages.conf.yaml'
 
 # Terraform
 alias t='terraform'
-alias td='terraform-docs'
+alias tv='terraform validate'
+alias td='terraform-docs markdown'
 
 # Ranger
 alias r='ranger .'

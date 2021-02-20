@@ -3,6 +3,9 @@
                   create: true
                   relink: true
 
+- create:
+          - ~/.cache/terraform/plugin-cache
+
 - clean: ["~"]
 
 - link:
@@ -19,4 +22,3 @@
           ~/.config/rofi/config: ./config/rofi/config
           ~/.config/rofi/themes/nord.rasi: ./config/rofi/nord.rasi
           ~/.zshrc: zshrc
-          ~/.profile: profile
