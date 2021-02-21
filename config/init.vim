@@ -1,4 +1,4 @@
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.local/share/nvim/plugged')
  Plug 'VundleVim/Vundle.vim'
  Plug 'hashivim/vim-terraform'
  Plug 'arcticicestudio/nord-vim'

@@ -5,6 +5,10 @@
 
 - create:
           - ~/.cache/terraform/plugin-cache
+          - ~/.config/azure
+          - ~/.local/share/go
+          - ~/.local/share/cargo
+          - ~/.local/share/nvim/plugged
 
 - clean: ["~"]
 
@@ -14,11 +18,15 @@
           ~/.config/picom/picom.conf: ./config/picom.conf
           ~/.config/shell/aliasrc: ./config/shell/aliasrc
           ~/.config/shell/shortcutrc: ./config/shell/shortcutrc
-          ~/.config/shell/profile: ./config/shell/profile
+          ~/.zprofile: ./config/shell/profile
           ~/.config/ranger/rc.conf: ./config/ranger/rc.conf
           ~/.config/alacritty/alacritty.yml: ./config/alacritty.yml
           ~/.config/dunst/dunstc: ./config/dunstrc
           ~/.config/sxhkd/sxhkdrc: ./config/sxhkdrc
           ~/.config/rofi/config: ./config/rofi/config
           ~/.config/rofi/themes/nord.rasi: ./config/rofi/nord.rasi
-          ~/.zshrc: zshrc
+          ~/.config/zsh/.zshrc: ./config/zshrc
+          ~/.config/terraform/terraform.rc: ./config/terraform.rc
+          ~/.config/polybar/colors: ./config/polybar/colors
+          ~/.config/polybar/config: ./config/polybar/config
+          ~/.config/polybar/launch.sh: ./config/polybar/launch.sh

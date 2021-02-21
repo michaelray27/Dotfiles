@@ -7,6 +7,12 @@ export BROWSER="google-chrome-stable"
 
 # ~/ Clean-up:
 export XDG_CONFIG_HOME="$HOME/.config"
-export XDG_DATA_HOME="$HOME/.local/share"
+export ZDOTDIR="${XDG_CONFIG_HOME:-$HOME/.config}/zsh"
+export AZURE_CONFIG_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/azure"
+export TF_CLI_CONFIG_FILE="${XDG_CONFIG_HOME:-$HOME/.config}/terraform/terraform.rc"
+
 export XDG_CACHE_HOME="$HOME/.cache"
-export TF_CLI_CONFIG_FLE="$HOME/.config/terraform/terraform.rc"
+
+export XDG_DATA_HOME="$HOME/.local/share"
+export CARGO_HOME="${XDG_DATA_HOME:-$HOME/.local/share}/cargo"
+export GOPATH="${XDG_DATA_HOME:-$HOME/.local/share}/go"
