@@ -2,7 +2,7 @@
 
 ## AUTOSTART
 # Background
-feh --bg-center ~/Pictures/background.jpg &
+feh --bg-center ~/Pictures/background.png &
 # Polybar
 $HOME/.config/polybar/launch.sh &
 # Picom
