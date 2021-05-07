@@ -7,7 +7,7 @@ alias dotvp="nvim ~/Files/dotfiles/packages.conf.yaml"
 
 # Terraform
 alias \
-	t="terraform" \   
+	t="terraform" \
 	tp="terraform plan" \
 	tv="terraform validate" \
 	td="terraform-docs markdown" \
