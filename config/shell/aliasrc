@@ -1,20 +1,21 @@
 #!/bin/sh
 
 # Shortcuts
-alias dotc='cd ~/Files/dotfiles'
-alias dotv='nvim ~/Files/dotfiles/install.conf.yaml'
-alias dotvp='nvim ~/Files/dotfiles/packages.conf.yaml'
+alias dotc="cd ~/Files/dotfiles"
+alias dotv="nvim ~/Files/dotfiles/install.conf.yaml"
+alias dotvp="nvim ~/Files/dotfiles/packages.conf.yaml"
 
 # Terraform
-alias t='terraform' \  
-      tp='terraform plan' \
-      tv='terraform validate' \
-      td='terraform-docs markdown' \
-      ti='terraform init'
-      tl='tflint'
+alias \
+	t="terraform" \   
+	tp="terraform plan" \
+	tv="terraform validate" \
+	td="terraform-docs markdown" \
+	ti="terraform init" \
+	tl="tflint"
 
 # Vim
-alias 
+alias \
 	v="nvim" \
 	vim="nvim"
 
