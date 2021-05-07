@@ -6,19 +6,17 @@ alias dotv='nvim ~/Files/dotfiles/install.conf.yaml'
 alias dotvp='nvim ~/Files/dotfiles/packages.conf.yaml'
 
 # Terraform
-alias t='terraform'
-alias tv='terraform validate'
-alias td='terraform-docs markdown'
-
-# Ranger
-alias r='ranger .'
-
+alias t='terraform' \  
+      tp='terraform plan' \
+      tv='terraform validate' \
+      td='terraform-docs markdown' \
+      ti='terraform init'
+      tl='tflint'
 
 # Vim
-alias \
+alias 
 	v="nvim" \
 	vim="nvim"
-
 
 # Kubernetes 
 alias \

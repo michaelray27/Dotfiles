@@ -10,7 +10,7 @@ source "$HOME/.config/shell/aliasrc"
 source "$HOME/.config/shell/shortcutrc"
 
 # Kube-PS1
-source ~/Extras/Git/kube-ps1/kube-ps1.sh
+source '/opt/kube-ps1/kube-ps1.sh'
 PROMPT='$(kube_ps1)'$PROMPT
 
 # Autocompletion

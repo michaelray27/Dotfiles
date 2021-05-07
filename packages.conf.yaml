@@ -23,7 +23,7 @@
           - zathura
           - zathura-cb
           - zathura-pdf-mupdf
-          - feh
+          - xwallpaper
           - dunst
           - python-pip
           - base-devel
@@ -43,3 +43,4 @@
           - visual-studio-code-bin
           - nerd-fonts-fira-code
           - archiver
+          - tflint-bin
